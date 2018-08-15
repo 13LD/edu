@@ -1,31 +1,22 @@
 # Linear Regression predicts linear relationship between two variables
 
-# Set path to Desktop
 setwd("~/Desktop/edu/R-lang/")
-
 rawData <- read.csv("linear.csv", header=T)
 
-# Show first n entries of data.frame, notice NA values
 head(rawData, 10)
-
 linModel <- lm(y~x, data = rawData)
 
-# Show attributes of linModel
 attributes(linModel) 
-
-# To show what happens with na.action, "omit" since data has NA
 linModel$na.action
-
-# Show coefficients of model
 linModel$coefficients
 
 # Predicting New Value based on our model
-predict(linModel, data.frame(x = 3))
+predict(linModel, data.frame(x = 1))
 
 plot(y ~ x, data = rawData,
-     xlab = "This labels the x axis",
-     ylab = "This labels the y axis",
-     main = "Scatter Plot"
+     xlab = "X",
+     ylab = "Y",
+     main = "Plot"
 )
 
-abline(linModel, col = "red", lwd = 3)
+abline(linModel, col = "green", lwd = 1)
