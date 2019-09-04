@@ -1,0 +1,30 @@
+The Kindle format is proprietary. Amazon has an official tool for converting
+epub to the Kindle format, however it is illegal for us to use it[1] to generate
+the kindle version of 99 Bottles of OOP.
+
+Therefore, we've had to generate a .mobi file using an unofficial tool, and the
+ result is not as good as the official one.
+
+It's perfectly legal for you to generate the .mobi yourself using Amazon's tool,
+kindlegen.
+
+There are two options for getting a better .mobi:
+
+* Uploading it to an online service
+* Generating it on the command-line with Amazon's official tool, kindlegen
+
+== Generating with Online Service
+
+Upload the epub to http://www.sendepubtokindle.com, which will email the kindle
+version directly to your kindle.
+
+== Generating with kindlegen
+
+Download kindlegen from Amazon's website:
+https://www.amazon.com/gp/feature.html?docId=1000765211
+
+Then run the following command on the command-line:
+
+    kindlegen 99Bottles.epub
+
+[1] http://www.virtuouscode.com/2014/05/13/tldr-amazon-sucks/
