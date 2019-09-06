@@ -8,3 +8,4 @@
 | Algorithms: Design and Analysis   | [Algorithms: Design and Analysis Part 1 Coursera](https://github.com/13LD/edu/tree/master/algorithms-design-and-analysis)  |
 | Command Line | [List of tricks](https://github.com/jlevy/the-art-of-command-line)  |
 | Dev Tube | https://dev.tube  |
+| Google Engineering Practices Documentation | https://google.github.io/eng-practices/  |
