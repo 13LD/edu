@@ -1,0 +1,6 @@
+PROGRAM
+BEGIN                                                                      
+(*hdhhd
+ARH := 8;
+IN end
+END

@@ -1,0 +1,6 @@
+PROGRAM                                                      
+BEGIN                                                         
+567 : ABC := 6; ABC := 12; IN 30 OUT 20 
+LINK 24;                                               
+GOTO 5;                                                           
+END

@@ -1,0 +1,9 @@
+PROGRAM
+BEGIN
+(* *) TOKEN
+(**) TOKEN
+(*jg&/?
+*)
+(*******)
+(*(()*())*)
+END

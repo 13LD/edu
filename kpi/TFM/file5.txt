@@ -1,0 +1,4 @@
+PROGRAM                                                      
+BEGIN                                                                                                        
+GOTO 1;                                                           
+END

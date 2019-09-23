@@ -1,0 +1,5 @@
+PROGRAM                                                              
+BEGIN                                                               
+(($))                                                     
+ABC := 312;
+END                                                                               
